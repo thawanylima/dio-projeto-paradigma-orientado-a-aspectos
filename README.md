@@ -1,18 +1,8 @@
-## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+#Projeto#
+Este projeto tem como proposta a implementação de uma solução envolvendo o Paradigma de Programação Orientado a Aspectos. Para isso, foi escolhido o paradigma Orientado a Objetos como o paradigma de programação primário para o projeto principal.
 
-## Folder Structure
+#Proposta#
+A proposta envolve criar uma função transversal ao código sendo aplicada em diferentes chamadas, no entanto, todas para o mesmo objetivo. Como exemplo de projeto de base podemos utilizar o seguinte problema:
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Problema padrão: Em um sistema bancário, o cliente pode optar por fazer saques em diferentes contas (corrente, salário, poupança, investimento), no entanto, uma mensagem deve ser gerada informando caso o saldo seja insuficiente perante o valor requisitado. Essa mensagem deve ser gerada por meio de um log de erro envolvendo todas as contas, ou seja, todas as contas devem ser verificadas antes de liberar o dinheiro, analisando a disponibilidade do mesmo e, caso não seja possível, uma mensagem de saldo insuficiente deve ser gerada.
